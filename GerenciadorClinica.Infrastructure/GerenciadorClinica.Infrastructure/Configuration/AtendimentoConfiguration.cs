@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace GerenciadorClinica.Infrastructure.Configuration;
 
-public class PacienteConfiguration : IEntityTypeConfiguration<Paciente>
+public class AtendimentoConfiguration : IEntityTypeConfiguration<Atendimento>
 {
-    public void Configure(EntityTypeBuilder<Paciente> builder)
+    public void Configure(EntityTypeBuilder<Atendimento> builder)
     {
 
     }

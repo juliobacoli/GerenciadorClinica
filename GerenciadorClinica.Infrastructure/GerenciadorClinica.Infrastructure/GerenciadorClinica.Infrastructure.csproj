@@ -21,4 +21,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\GerenciadorClinica.Domain\GerenciadorClinica.Domain\GerenciadorClinica.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

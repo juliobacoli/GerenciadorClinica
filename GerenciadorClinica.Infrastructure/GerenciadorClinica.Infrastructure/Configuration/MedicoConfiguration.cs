@@ -1,5 +1,13 @@
-﻿namespace GerenciadorClinica.Infrastructure.Configuration;
+﻿using GerenciadorClinica.Domain.Entidades;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-public class MedicoConfiguration
+namespace GerenciadorClinica.Infrastructure.Configuration;
+
+public class MedicoConfiguration : IEntityTypeConfiguration<Medico>
 {
+    public void Configure(EntityTypeBuilder<Medico> builder)
+    {
+
+    }
 }
