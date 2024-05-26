@@ -13,4 +13,6 @@ public class Paciente
     public double Altura { get; set; }
     public double Peso { get; set; }
     public string Endereco { get; set; }
+
+    public ICollection<Atendimento> Atendimentos { get; set; }
 }

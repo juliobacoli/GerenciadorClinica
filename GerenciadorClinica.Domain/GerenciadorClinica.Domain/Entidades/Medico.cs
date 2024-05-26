@@ -13,4 +13,6 @@ public class Medico
     public string Endereco { get; set; }
     public string Especialidade { get; set; }
     public string RegistroCRM { get; set; }
+
+    public ICollection<Atendimento> Atendimentos { get; set; }
 }

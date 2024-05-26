@@ -2,4 +2,8 @@
 
 public enum TipoAtendimento
 {
+    Consulta,
+    Exame,
+    Cirurgia,
+    Retorno
 }
